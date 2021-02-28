@@ -28,11 +28,178 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.hotel{
+  min-height: max-content;
+  text-align:center;
+  background-color:#757575 !important; 
+  justify-content:center; 
+  align-items:center; 
+  align-content:center;
+}
+
+
+
+ul.nav a:hover { color: #fff !important; }
+
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+} 
+
+.navitem:global(.active) {
+  background-color: red;
+}
+
+.custom-rounded{
+  border-radius: 18px;
+}
+
+.card-container{
+    box-shadow: 7px 7px 4px 4px rgb(69,69,69,0.1), 0 6px 20px 0 rgb(69,69,69,1);
+    text-align: center;
+    border-radius: 18px;
+    position: relative;
+    min-height: max-content;
+    background-color: #F9F9F9;
+}
+
+.header-title{
+    font-weight: bold;
+    padding: 0.4rem 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-header-title{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.body-carousel{
+  background:#F9F9F9;
+}
+
+.custom-button{
+  width: 30%;
+  background-color: #454545 !important;
+  border: none !important;
+}
+
+.custom-main{
+  min-height: 60vh;
+  margin-bottom: 4vh;
+}
+
+.custom-body{
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+h2::after
+{
+  content: '';
+  border-bottom: 2px solid #757575;
+  width: 5vw;
+  display: block;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.custom-height{
+  height: 20%;
+}
+
+.bookings{
+  margin: 0.2vh 0.5vh;
+}
+
+.removebg{
+  background-color: none !important;
+  color: none !important;
+}
+
+.height-80{
+  height: 75vh;
+}
+
+.height-img{
+  height: "100%";
+}
+
+.space{
+  display: block;
+  visibility: hidden;
+}
+
+.space2{
+  display: block;
+  visibility: hidden;
+}
+
+.smallerFont{
+  font-size: 0.8rem;
+}
+
+.big-width{
+  width:50%;
+}
+
+.icons-color{
+  color: red !important;
+}
+
+/* .carousel-control-prev-icon{
+  color: red !important;
+  background-color: red !important;
+} */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 3px solid gray;
+  background-color: gray;
+  text-align: center;
+}
+
+.Primary-text-color{
+  color: #454545 !important;
+}
+
+.text-color{
+  color: black !important;
+}
+
+.colors{
+  background-color: red !important;
+}
+
+
+@media screen and (min-width: 1020px){
+  .small-width{
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1370px) {
+  .space{
+    display: none;
+  }
+  .custom-button{
+  width: 50%;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+  .big-width{
+    width: 100%;
   }
 }
