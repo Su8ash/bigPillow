@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bigPillow/static/css/main.4d7d9064.chunk.css",
-    "main.js": "/bigPillow/static/js/main.8f16a164.chunk.js",
-    "main.js.map": "/bigPillow/static/js/main.8f16a164.chunk.js.map",
+    "main.css": "/bigPillow/static/css/main.86fae49e.chunk.css",
+    "main.js": "/bigPillow/static/js/main.04257348.chunk.js",
+    "main.js.map": "/bigPillow/static/js/main.04257348.chunk.js.map",
     "runtime-main.js": "/bigPillow/static/js/runtime-main.7d31d4c8.js",
     "runtime-main.js.map": "/bigPillow/static/js/runtime-main.7d31d4c8.js.map",
     "static/css/2.150d169a.chunk.css": "/bigPillow/static/css/2.150d169a.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.7aa4a950.chunk.js.map": "/bigPillow/static/js/3.7aa4a950.chunk.js.map",
     "index.html": "/bigPillow/index.html",
     "static/css/2.150d169a.chunk.css.map": "/bigPillow/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.4d7d9064.chunk.css.map": "/bigPillow/static/css/main.4d7d9064.chunk.css.map",
+    "static/css/main.86fae49e.chunk.css.map": "/bigPillow/static/css/main.86fae49e.chunk.css.map",
     "static/js/2.7b007779.chunk.js.LICENSE.txt": "/bigPillow/static/js/2.7b007779.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7d31d4c8.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.7b007779.chunk.js",
-    "static/css/main.4d7d9064.chunk.css",
-    "static/js/main.8f16a164.chunk.js"
+    "static/css/main.86fae49e.chunk.css",
+    "static/js/main.04257348.chunk.js"
   ]
 }
