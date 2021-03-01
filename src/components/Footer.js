@@ -23,19 +23,6 @@ export default function Footer() {
                             Big Pillow Inn is a trademark owned and operated by B.G.S Hospitality & Leasing Group headquartered in Pokhara, Nepal. The group also owns and operates F&B brand Belle Lyipa – Nepal’s first croissanterie & fine casual dining outlet
                         </p>
 
-                        <br></br>
-                        <h4 className="mt-3 text-center" >
-                            VENDOR/SUPPLIERS RELATIONS
-                        </h4>
-                        <p className=" mx-2 text-color smallerFont" style={{ fontSize: "0.95rem" }}>
-                            For procurement queries (all suppliers, contractors, vendors)
-                            <strong> info@bigpillowinn.com</strong><br></br>
-                            For payments & billing (all DMCs, OTA, Banks)
-                            <strong> accounts@bigpillowinn.com</strong><br></br>
-                            For jobs (all interns, graduates, professionals)
-                            <strong> hr@bigpillowinn.com</strong><br></br>
-
-                        </p>
                     </Col>
 
                     <Col md={4} sm={2} className="d-flex align-items-center  align-content-evenly  flex-column">
@@ -60,7 +47,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li className="list-inline-item mx-4">
-                                <a href={"#"}>
+                                <a href={"#home"}>
                                     <FontAwesomeIcon
                                         icon={['fab', 'twitter']}
                                         size="2x"
@@ -75,6 +62,23 @@ export default function Footer() {
                     <Col md={4} sm={5} style={{ maxHeight: "40vh" }}>
                         <h4 className=" text-center">Location</h4>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1757.965088313868!2d83.95657461182489!3d28.209433895891035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995951e8f6f9239%3A0xe809e75063e315e1!2sBig%20Pillow%20Inn!5e0!3m2!1sen!2sin!4v1614327306024!5m2!1sen!2sin" width="100%" height="84%" frameBorder="0" style={{ border: 0 }} allowFullScreen={true} aria-hidden="false" tabIndex="0" title="map"></iframe>
+                    </Col>
+
+
+                    <Col md={4} sm={5} style={{ height: "100%", }} className="my-2">
+                        <h4 className="text-center" >
+                            VENDOR/SUPPLIERS RELATIONS
+                            </h4>
+                        <p className="list-unstyled smaller-font" style={{ fontSize: "0.95rem" }}>
+                            For procurement queries (all suppliers, contractors, vendors)<br></br>
+                            <strong>info@bigpillowinn.com</strong><br></br>
+                            For payments & billing (all DMCs, OTA, Banks)
+                            <br></br><strong>accounts@bigpillowinn.com</strong><br></br>
+                            For jobs (all interns, graduates, professionals)
+                            <br></br><strong>hr@bigpillowinn.com</strong><br></br>
+
+                        </p>
+
                     </Col>
                 </Row>
 

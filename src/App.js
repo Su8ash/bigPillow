@@ -111,13 +111,11 @@ function App() {
   return (
     <div className="custom-body">
       <Navbar collapseOnSelect expand="lg" >
-        <Navbar.Brand href="#Home" style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#454545" }} >
-          BIG PILLOW INN
-        </Navbar.Brand>
+
 
 
         <Navbar className=" Primary-text-color small-width " collapseOnSelect expand="lg">
-          <Navbar.Brand href="#Home" className="text-center col-lg-2 offset-lg-5" bg="light" variant="light">
+          <Navbar.Brand href="#Home" bg="light" variant="light">
 
             <img
               // src={"https://images.unsplash.com/photo-1513694203232-719a280e022f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80"}
@@ -133,10 +131,9 @@ function App() {
         <Navbar.Collapse id="responsive-navbar-nav">
 
           <Nav className="ml-auto">
-            <Nav.Link href="#Home">Home</Nav.Link>
-            <Nav.Link href="#Stay">Stay</Nav.Link>
-            <Nav.Link href="#Eat">Eat</Nav.Link>
-            <Nav.Link href="#Booking">Booking</Nav.Link>
+            <Navbar.Brand href="#Home" style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#454545" }} >
+              BIG PILLOW INN
+            </Navbar.Brand>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -170,7 +167,7 @@ function App() {
 
           {/*Stay Card View*/}
           <Col sm={8} md={6}>
-            <div className="mx-2 my-3 mb-4">
+            <div className="mx-2 my-2 mb-4">
               <div className="card-container py-2">
                 <h2 className="header-title">STAY</h2>
 

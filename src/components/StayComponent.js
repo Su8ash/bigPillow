@@ -8,9 +8,9 @@ export default function StayComponent({ roomType, price, amenities, onClick, ima
 
     return (
         <Col >
-            <Card className="text-center" style={{ maxHeight: "70%", border: "none" }}>
+            <Card className="text-center removebg" style={{ maxHeight: "70%", border: "none" }}>
 
-                <Card.Body>
+                <Card.Body className="removebg">
 
                     <Carousel controls={false}>
 

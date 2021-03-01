@@ -181,6 +181,11 @@ h2::after
   background-color: red !important;
 }
 
+.removebg{
+  background-color: none !important;
+  background: none !important;
+}
+
 
 @media screen and (min-width: 1020px){
   .small-width{
