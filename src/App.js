@@ -127,15 +127,13 @@ function App() {
           </Navbar.Brand>
         </Navbar>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
 
-          <Nav className="ml-auto">
-            <Navbar.Brand href="#Home" style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#454545" }} >
-              BIG PILLOW INN
+
+        <Nav className="ml-auto">
+          <Navbar.Brand href="#Home" style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#454545" }} >
+            BIG PILLOW INN
             </Navbar.Brand>
-          </Nav>
-        </Navbar.Collapse>
+        </Nav>
       </Navbar>
 
 
@@ -143,7 +141,7 @@ function App() {
       {/*Big pillow inn jumbotron*/}
 
       <Jumbotron className="hotel">
-        <div style={{ color: "white" }} className="big-width col-md-8 offset-md-3">
+        <div style={{ color: "white" }} className="big-width col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 
           <h1 style={{ fontSize: "1.6 em", fontWeight: "bold" }}>Big Pillow Inn</h1>
           <p style={{ fontSize: "1.2 em", textAlign: "center" }}>is <br></br>
@@ -151,22 +149,30 @@ function App() {
           Located in the heart of Pokhara in the Lakeside area with all major shopping &amp; food outlets and leisure activities within walking distance.
            We offer clean and well appointed rooms in the economy and premium category.
         </p>
+          {/*
 
+            Above
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+            content of big pillow
+        </Navbar.Collapse>
           <p>
-            <strong>&#42; BIG PILLOW INN </strong>is a trademark owned and operated by b.g.s hospitality &amp;
-            leasing group headquartered in pokhara, nepal. the group also wons and operated f&amp;b brand
+            <strong className="text-uppercase" >&#42; Big pillow inn </strong>is a trademark owned and operated by <strong class="text-uppercase" >
+              b.g.s hospitality &amp;
+            leasing group</strong> headquartered in pokhara, nepal. the group also wons and operated f&amp;b brand
             belle lyipa - nepal's first croissanterie &amp; fine casual dinning outlet.
           </p>
+          */}
         </div>
       </Jumbotron>
 
 
       <Container fluid className="mb-5 mx-2 custom-main" >
 
-        <Row xs={1} md={2} lg={3} className="my-1" >
+        <Row xs={1} md={1} lg={3} className="my-1 mx-auto" >
 
           {/*Stay Card View*/}
-          <Col sm={8} md={6}>
+          <Col sm={8} md={10} className="mx-auto">
             <div className="mx-2 my-2 mb-4">
               <div className="card-container py-2">
                 <h2 className="header-title">STAY</h2>

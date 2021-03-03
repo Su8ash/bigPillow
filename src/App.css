@@ -146,7 +146,9 @@ h2::after
 .smallerFont{
   font-size: 0.8rem;
 }
-
+.tinyFont{
+  font-size: 0.7rem;
+}
 .big-width{
   width:50%;
 }
@@ -190,6 +192,13 @@ h2::after
 @media screen and (min-width: 1020px){
   .small-width{
     width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 1220px) {
+  .space2{
+    display: none;
   }
 }
 

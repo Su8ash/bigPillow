@@ -4,7 +4,7 @@ import { Col } from 'react-bootstrap';
 export default function EatComponent({ onClick }) {
 
     return (
-        <Col sm={8} md={6}>
+        <Col sm={8} md={10} className="mx-auto">
             <div className="mx-2 my-2 mb-4">
                 <div className="card-container px-2 py-2">
                     <h2 className="header-title">EAT</h2>

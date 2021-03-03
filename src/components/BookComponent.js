@@ -3,10 +3,10 @@ import { Col } from 'react-bootstrap';
 export default function BookComponent() {
 
     return (
-        <Col sm={8} md={6}>
+        <Col sm={8} md={10} className="mx-auto">
             <div className="mx-2 my-2 mb-5">
                 <div className="card-container">
-                    <h2 className="header-title">BOOKINGS</h2>
+                    <h2 className="header-title text-uppercase">Book and pay</h2>
 
                     <div className="my-5">
                         <h4 style={{ fontSize: "1.2rem", fontWeight: "bold" }}>Email</h4>

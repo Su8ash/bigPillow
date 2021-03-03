@@ -7,7 +7,7 @@ export default function StayComponent({ roomType, price, amenities, onClick, ima
 
 
     return (
-        <Col >
+        <Col>
             <Card className="text-center removebg" style={{ maxHeight: "70%", border: "none" }}>
 
                 <Card.Body className="removebg">
