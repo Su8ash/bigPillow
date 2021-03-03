@@ -101,7 +101,7 @@ ul.nav a:hover { color: #fff !important; }
     overflow-x: hidden;
 }
 
-h2::after
+/* h2::after
 {
   content: '';
   border-bottom: 2px solid #757575;
@@ -110,7 +110,7 @@ h2::after
   text-align: center;
   align-items: center;
   margin: auto;
-}
+} */
 
 .custom-height{
   height: 20%;
@@ -133,15 +133,12 @@ h2::after
   height: "100%";
 }
 
-.space{
-  display: block;
-  visibility: hidden;
-}
 
-.space2{
+
+/* .space2{
   display: block;
   visibility: hidden;
-}
+} */
 
 .smallerFont{
   font-size: 0.8rem;
@@ -193,26 +190,50 @@ h2::after
   .small-width{
     width: 100%;
   }
-
 }
 
-@media screen and (max-width: 1220px) {
+
+/* @media screen and (min-width: 1370px){
+      .space{
+    display: none;
+  }
+} */
+
   .space2{
     display: none;
+    visibility: hidden;
+  }
+
+  .space{
+    display: none;
+    visibility: hidden;
+  }
+
+@media screen and (min-width: 1490px){
+    .space{
+    display: block;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1650px){
+  .space2{
+    display: block;
   }
 }
 
+
+
 @media screen and (max-width: 1370px) {
-  .space{
-    display: none;
-  }
   .custom-button{
   width: 50%;
 }
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 769px) {
   .big-width{
     width: 100%;
   }

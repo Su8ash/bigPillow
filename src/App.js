@@ -141,10 +141,10 @@ function App() {
       {/*Big pillow inn jumbotron*/}
 
       <Jumbotron className="hotel">
-        <div style={{ color: "white" }} className="big-width col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+        <div style={{ color: "white" }} className="big-width col-md-8 offset-md-2 col-lg-8 offset-lg-3">
 
-          <h1 style={{ fontSize: "1.6 em", fontWeight: "bold" }}>Big Pillow Inn</h1>
-          <p style={{ fontSize: "1.2 em", textAlign: "center" }}>is <br></br>
+          <p style={{ fontSize: "1.2em", textAlign: "center" }}>
+            <span style={{ display: 'block' }}>Big Pillow Inn</span>is <br></br>
 
           Located in the heart of Pokhara in the Lakeside area with all major shopping &amp; food outlets and leisure activities within walking distance.
            We offer clean and well appointed rooms in the economy and premium category.
@@ -167,14 +167,14 @@ function App() {
       </Jumbotron>
 
 
-      <Container fluid className="mb-5 mx-2 custom-main" >
+      <Container fluid className="mb-5 mx-2 mb-xl-4 custom-main" >
 
         <Row xs={1} md={1} lg={3} className="my-1 mx-auto" >
 
           {/*Stay Card View*/}
-          <Col sm={8} md={10} className="mx-auto">
+          <Col sm={8} md={9} className="mx-auto">
             <div className="mx-2 my-2 mb-4">
-              <div className="card-container py-2">
+              <div className="card-container py-2 pb-xl-4">
                 <h2 className="header-title">STAY</h2>
 
                 <Carousel slide={true} interval={10500}

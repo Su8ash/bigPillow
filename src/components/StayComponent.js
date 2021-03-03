@@ -35,7 +35,7 @@ export default function StayComponent({ roomType, price, amenities, onClick, ima
 
                     {(amenities.length > 200) ? <p className="text-center smallerFont">{amenities}</p> : <p className="text-center" style={{ fontSize: "1rem" }}>{amenities}</p>}
 
-                    <div className="btn btn-primary custom-button d-block mx-auto">Rs. {price}
+                    <div className="btn btn-primary custom-button d-block mx-auto text-uppercase">NPR {price}
                     </div>
 
                     <Button variant="link" className="btn btn-link">
