@@ -32,7 +32,9 @@
 .hotel{
   min-height: max-content;
   text-align:center;
-  background-color:#757575 !important; 
+  /* background-color:red !important;  */
+  /* backdrop-filter: grayscale(0.5) opacity(0.8) !important; */
+   /* background-blend-mode: darken; */
   justify-content:center; 
   align-items:center; 
   align-content:center;
@@ -186,6 +188,10 @@ ul.nav a:hover { color: #fff !important; }
 }
 
 
+.menuBtn{
+  height: 20em;
+}
+
 @media screen and (min-width: 1020px){
   .small-width{
     width: 100%;
@@ -193,36 +199,58 @@ ul.nav a:hover { color: #fff !important; }
 }
 
 
-/* @media screen and (min-width: 1370px){
-      .space{
-    display: none;
-  }
-} */
 
-  .space2{
-    display: none;
-    visibility: hidden;
-  }
+@media screen and (min-width: 992px){
 
-  .space{
-    display: none;
-    visibility: hidden;
+  @media screen and (max-height: 698px){
+
+  .card-container{
+    min-height: 110vh;
+}
   }
 
-@media screen and (min-width: 1490px){
-    .space{
-    display: block;
+  @media screen and (min-height: 699px){
+
+  .card-container{
+    min-height: 90vh;
+}
   }
 
+    @media screen and (min-height: 799px){
+
+  .card-container{
+    min-height: 89vh;
+}
+  }
+
+      @media screen and (min-height: 899px){
+
+    .card-container{
+      min-height: 88vh;
+  }
+  }
+   @media screen and (min-height: 999px){
+
+    .card-container{
+      min-height: 81vh;
+  }
+  }
+
+     @media screen and (min-height: 1199px){
+
+    .card-container{
+      min-height: 61vh;
+  }
+  }
+
+       @media screen and (min-height: 1299px){
+
+    .card-container{
+      min-height: 51vh;
+  }
+  }
 }
 
-
-
-@media screen and (min-width: 1650px){
-  .space2{
-    display: block;
-  }
-}
 
 
 
@@ -233,7 +261,7 @@ ul.nav a:hover { color: #fff !important; }
 }
 
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 991px) {
   .big-width{
     width: 100%;
   }

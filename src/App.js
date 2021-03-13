@@ -140,11 +140,11 @@ function App() {
 
       {/*Big pillow inn jumbotron*/}
 
-      <Jumbotron className="hotel">
+      <Jumbotron className="hotel" style={{ backgroundImage: "url('./bgImageBlur.jpg')" }}>
         <div style={{ color: "white" }} className="big-width col-md-8 offset-md-2 col-lg-8 offset-lg-3">
 
           <p style={{ fontSize: "1.2em", textAlign: "center" }}>
-            <span style={{ display: 'block' }}>Big Pillow Inn</span>is <br></br>
+            <span style={{ display: 'block' }}>Big Pillow Inn</span>is<br></br>
 
           Located in the heart of Pokhara in the Lakeside area with all major shopping &amp; food outlets and leisure activities within walking distance.
            We offer clean and well appointed rooms in the economy and premium category.
@@ -174,7 +174,7 @@ function App() {
           {/*Stay Card View*/}
           <Col sm={8} md={9} className="mx-auto">
             <div className="mx-2 my-2 mb-4">
-              <div className="card-container py-2 pb-xl-4">
+              <div className="card-container py-2">
                 <h2 className="header-title">STAY</h2>
 
                 <Carousel slide={true} interval={10500}
@@ -211,7 +211,7 @@ function App() {
           <EatComponent onClick={(e) => {
             e.preventDefault();
             window.open(
-              'https://sabfood.app/menus/00664?fbclid=IwAR3twpbkLfOo-NFdXKfkoF2Pq0AbxLxbVKbWae6EV9wOxEXsXq1jg3rr5tU',
+              'http://www.bigpillowinn.com/menu.html',
               '_blank'
             );
 
