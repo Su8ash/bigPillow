@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bigPillow/static/css/main.c2bc44d6.chunk.css",
-    "main.js": "/bigPillow/static/js/main.25f0b2a6.chunk.js",
-    "main.js.map": "/bigPillow/static/js/main.25f0b2a6.chunk.js.map",
+    "main.js": "/bigPillow/static/js/main.07e18c72.chunk.js",
+    "main.js.map": "/bigPillow/static/js/main.07e18c72.chunk.js.map",
     "runtime-main.js": "/bigPillow/static/js/runtime-main.56722348.js",
     "runtime-main.js.map": "/bigPillow/static/js/runtime-main.56722348.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/bigPillow/static/css/2.4c97ca4f.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.3b5bf09f.chunk.js",
     "static/css/main.c2bc44d6.chunk.css",
-    "static/js/main.25f0b2a6.chunk.js"
+    "static/js/main.07e18c72.chunk.js"
   ]
 }
